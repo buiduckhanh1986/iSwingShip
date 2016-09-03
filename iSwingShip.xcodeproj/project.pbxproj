@@ -13,6 +13,10 @@
 		600076DE1D7B04EE00DC6855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600076DC1D7B04EE00DC6855 /* Main.storyboard */; };
 		600076E01D7B04EE00DC6855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600076DF1D7B04EE00DC6855 /* Assets.xcassets */; };
 		600076E31D7B04EE00DC6855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600076E11D7B04EE00DC6855 /* LaunchScreen.storyboard */; };
+		600076EE1D7B069A00DC6855 /* sea01.png in Resources */ = {isa = PBXBuildFile; fileRef = 600076EB1D7B069A00DC6855 /* sea01.png */; };
+		600076EF1D7B069A00DC6855 /* sea02.png in Resources */ = {isa = PBXBuildFile; fileRef = 600076EC1D7B069A00DC6855 /* sea02.png */; };
+		600076F01D7B069A00DC6855 /* wave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 600076ED1D7B069A00DC6855 /* wave.mp3 */; };
+		600076F21D7B06D500DC6855 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600076F11D7B06D500DC6855 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		600076DF1D7B04EE00DC6855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600076E21D7B04EE00DC6855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		600076E41D7B04EE00DC6855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600076EB1D7B069A00DC6855 /* sea01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea01.png; sourceTree = "<group>"; };
+		600076EC1D7B069A00DC6855 /* sea02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea02.png; sourceTree = "<group>"; };
+		600076ED1D7B069A00DC6855 /* wave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wave.mp3; sourceTree = "<group>"; };
+		600076F11D7B06D500DC6855 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600076F21D7B06D500DC6855 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			children = (
 				600076D21D7B04EE00DC6855 /* iSwingShip */,
 				600076D11D7B04EE00DC6855 /* Products */,
+				600076F11D7B06D500DC6855 /* AVFoundation.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +68,7 @@
 		600076D21D7B04EE00DC6855 /* iSwingShip */ = {
 			isa = PBXGroup;
 			children = (
+				600076EA1D7B068800DC6855 /* resource */,
 				600076D61D7B04EE00DC6855 /* AppDelegate.h */,
 				600076D71D7B04EE00DC6855 /* AppDelegate.m */,
 				600076D91D7B04EE00DC6855 /* ViewController.h */,
@@ -77,6 +88,16 @@
 				600076D41D7B04EE00DC6855 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		600076EA1D7B068800DC6855 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				600076EB1D7B069A00DC6855 /* sea01.png */,
+				600076EC1D7B069A00DC6855 /* sea02.png */,
+				600076ED1D7B069A00DC6855 /* wave.mp3 */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +159,10 @@
 			files = (
 				600076E31D7B04EE00DC6855 /* LaunchScreen.storyboard in Resources */,
 				600076E01D7B04EE00DC6855 /* Assets.xcassets in Resources */,
+				600076EE1D7B069A00DC6855 /* sea01.png in Resources */,
 				600076DE1D7B04EE00DC6855 /* Main.storyboard in Resources */,
+				600076EF1D7B069A00DC6855 /* sea02.png in Resources */,
+				600076F01D7B069A00DC6855 /* wave.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
