@@ -102,9 +102,13 @@
     NSError *error;
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url
                                                          error:&error];
+    audioPlayer.numberOfLoops = -1;
     [audioPlayer prepareToPlay];
     [audioPlayer play];
 }
 
-
+// Dừng chơi nhạc
+- (void) viewWillDisappear:(BOOL)animated {
+    [audioPlayer stop];
+}
 @end
